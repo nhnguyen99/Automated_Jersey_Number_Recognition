@@ -2,6 +2,28 @@
 
 This project will identify the jersey numbers of American football players in broadcast footage using a two stage approach. The first stage will be a pre-trained Mask R-CNN that will detect players, and the second stage will be a fine-tuned Faster R-CNN to extract digits from the player bounding boxes. This project was inherited from Alex Ramey, a former UA CS student. Much of the credit goes to him. Nguyen Nguyen, Jeff Reidy, and Noah Wagnon have added on to his existing project by adding roster integration, game clock information extraction, jersey color filtering, a linked database, 2-digit number synthesis, major speed boosts, and minor accuracy improvements
 
+## Example Images
+
+| | | |
+|:----------:|:----------:|:----------:|
+| ![][pic1]  | ![][pic2]  | ![][pic3]  |
+| ![][pic4]  | ![][pic5]  | ![][pic6]  |
+| ![][pic7]  | ![][pic8]  | ![][pic9]  |
+| ![][pic10]  | ![][pic11] | ![][pic12] |
+
+[pic1]: readme_assets/pic1.png
+[pic2]: readme_assets/pic2.png
+[pic3]: readme_assets/pic3.png
+[pic4]: readme_assets/pic4.png
+[pic5]: readme_assets/pic5.png
+[pic6]: readme_assets/pic6.png
+[pic7]: readme_assets/pic7.png
+[pic8]: readme_assets/pic8.png
+[pic9]: readme_assets/pic9.png
+[pic10]: readme_assets/pic10.png
+[pic11]: readme_assets/pic11.png
+[pic12]: readme_assets/pic12.png
+
 ## Usage
 Note: The "494-407 Project Demo.pdf" gives a step by step instruction for executing the system from end to end.
 
